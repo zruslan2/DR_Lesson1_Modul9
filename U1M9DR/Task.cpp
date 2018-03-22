@@ -107,7 +107,7 @@ void main()
 			} while (c!=0);
 			for (int i = 0; i < razm; i++)
 			{
-				if (numbers[i] > 0)sum += numbers[i];
+				if (numbers[i]%2==0)sum += numbers[i];
 			}
 			printf("Сумма четных элементов = %d\n", sum);
 			free(numbers);		
